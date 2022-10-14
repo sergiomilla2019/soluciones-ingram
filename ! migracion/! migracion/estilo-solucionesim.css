@@ -1,0 +1,806 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    margin: auto 5% !important;
+}
+
+.azul {
+    color: #2276ba;
+}
+.bg-azul {
+    background: #2276ba;
+    color: #ffffff;
+}
+.dark-azul {
+    color: #0e2e44;
+}
+.bg-dark-azul {
+    background: #0e2e44;
+    color: #ffffff;
+}
+.naranja {
+    color: #ff8303;
+}
+.bg-naranja {
+    background: #ff8303;
+    color: #ffffff;
+}
+.celeste {
+    color: #06baec ;
+}
+.bg-celeste {
+    background: #06baec;
+    color: #ffffff;
+}
+.verde {
+    color: #24b115;
+}
+.bg-verde {
+    background: #24b115;
+    color: #ffffff;
+}
+.bg-verde2 {
+    background: #33b083;
+    color: #ffffff;
+}
+.bg-verde-suave {
+    background: #eef9ed;
+}
+.violeta {
+    color: #7359a2;
+}
+.bg-violeta {
+    background: #7359a2;
+    color: #ffffff;
+}
+.bg-bordo {
+    background: #c82154;
+    color: #ffffff;
+}
+.azul-noche {
+    color: #323751;
+}
+.borde-celeste {
+    border-bottom: 3px solid #06baec;
+}
+.borde-verde {
+    border-bottom: 3px solid #24b115;
+}
+.borde-naranja {
+    border-bottom: 3px solid #ff8303;
+}
+.borde-azul {
+    border-bottom: 3px solid #2276ba;
+}
+.borde-violeta {
+    border-bottom: 3px solid #7359a2;
+}
+.borde-azul-noche {
+    border-bottom: 3px solid #323751;
+}
+.borde-caja-violeta {
+    border: 2px solid #7359a2;
+    max-width: 500px;
+    text-align: start;
+    padding: 10px;
+    margin: auto;
+}
+.borde-caja-azul {
+    border: 2px solid #2276ba;
+    max-width: 500px;
+    text-align: start;
+    padding: 10px;
+    margin: auto;
+}
+.borde-caja-verde {
+    border: 2px solid #33b083;
+    max-width: 500px;
+    text-align: start;
+    padding: 10px;
+    margin: auto;
+}
+.borde-caja-bordo {
+    border: 2px solid #c82154;
+    max-width: 500px;
+    text-align: start;
+    padding: 10px;
+    margin: auto;
+}
+.card-celeste {
+    border: none;
+    background: #f0f9fc;
+}
+.card-verde {
+    border: none;
+    background: #edf7f0;
+}
+.card-naranja {
+    border: none;
+    background: #f9f2ed;
+}
+.card-violeta {
+    border: none;
+    background: #eeeaf9;
+}
+.card-bordo {
+    border: none;
+    background: #f7ebf2;
+}
+.card-azul {
+    border: none;
+    background: #e9f0f4;
+}
+
+.caja-borde-celeste {
+    border: 2px solid #06baec;
+    border-radius: 5em;
+    padding: 20px;
+}
+.caja-borde-verde {
+    border: 2px solid #24b115;
+    border-radius: 5em;
+    padding: 20px;
+}
+.caja-borde-naranja {
+    border: 2px solid #ff8303;
+    border-radius: 5em;
+    padding: 20px;
+}
+.caja-borde-violeta {
+    border: 2px solid #7359a2;
+    border-radius: 5em;
+    padding: 20px;
+}
+.caja-borde-bordo {
+    border: 2px solid #c82154;
+    border-radius: 5em;
+    padding: 20px;
+}
+.caja-borde-azul {
+    border: 2px solid #2276ba;
+    border-radius: 5em;
+    padding: 20px;
+}
+
+.navbar-nav {
+    background: #2276ba;
+    padding: 20px;
+}
+.navbar .navbar-nav .nav-link  {
+    color: #ffffff;
+    margin:  .3rem;
+    padding: 0 1rem;
+}
+
+.seccion-primera {
+    padding: 40px 0;
+}
+.primer-slide {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Be733fe8a-5109-4129-9c60-a181cc0bc2e7%7D_bg_top.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.segundo-slide {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B6fe167bd-2fd6-493e-9ba7-65abcd99d6ab%7D_home_slide_2.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.tercer-slide {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bdad90e5b-2d5e-4a19-a91a-e9d147a7f8cd%7D_home_slide_3.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.cuarto-slide {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B9276d77c-db30-464d-ae03-f2a4f9ee5306%7D_home_slide_4.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 100px 0;
+}
+.quinto-slide {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B950e1ab5-3331-4873-880c-ea69ef685c27%7D_home_slide_5.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 100px 0;
+}
+.seccion-segunda {
+    padding: 50px 0;
+}
+
+.banner-abajo {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B80ef1b31-e2fb-4ca5-9a69-7c73652bd37e%7D_banner_bottom.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 40px;
+    padding: 30px;
+}
+.seccion-cuarta {
+    background: #2276ba;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.boton-naranja {
+    border: 2px solid #ff8303;
+    color: #0e2e44;
+    font-weight: 600;
+    background: transparent;
+    padding: 10px 25px;
+    max-width: 250px;
+    width: 100%;
+    margin-top: 2em;
+    font-size: 25px;
+}
+.boton-naranja-2 {
+    border: 2px solid #ff8303;
+    color: #0e2e44;
+    font-weight: 600;
+    background: transparent;
+    padding: 10px 25px;
+    max-width: 350px;
+    width: 100%;
+    margin-top: 2em;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.boton-verde {
+    border: 2px solid #24b115;
+    color: #0e2e44;
+    font-weight: 600;
+    background: transparent;
+    padding: 10px 25px;
+    max-width: 250px;
+    width: 100%;
+    margin-top: 1em;
+    font-size: 25px;
+}
+.boton-verde-2 {
+    border: 2px solid #24b115;
+    color: #0e2e44;
+    margin-top: 1em;
+    font-weight: bold;
+}
+.boton-celeste {
+    border: 2px solid #06baec;
+    color: #0e2e44;
+    margin-top: 1em;
+    font-weight: bold;
+}
+.boton-naranja-3 {
+    border: 2px solid #ff8303;
+    color: #0e2e44;
+    margin-top: 1em;
+    font-weight: bold;
+}
+.boton-violeta {
+    border: 2px solid #7359a2;
+    color: #0e2e44;
+    margin-top: 1em;
+    font-weight: bold;
+}
+.boton-azul {
+    border: 2px solid #2276ba;
+    color: #0e2e44;
+    margin-top: 1em;
+    font-weight: bold;
+}
+.boton-verde-3 {
+    border: 2px solid #33b083;
+    color: #0e2e44;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.bordo {
+    color: #c82154;
+}
+.verde2 {
+    color: #33b083;
+}
+.amarillo {
+    color: #f9ad15;
+}
+
+#footer {
+    background: #ffffff;
+    padding: 20px 0;
+    color: #000000;
+}
+.footer-content {
+    justify-content: space-between;
+}
+
+.iot-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bd1381ede-7318-4a00-8eea-a70ce8736e93%7D_slider_1.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.seccion-modal-iot {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.seccion-sponsor-iot {
+    padding: 50px 0;
+}
+.seccion-sponsor-iot img {
+    padding: 10px;
+}
+.bg-sponsor {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B5f498e68-3615-4929-a68b-73ccc66f264b%7D_bg-sponsors.png") no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.seccion-iconos-video {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.seccion-contacto-iot {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bc3f75c8a-5b3a-4342-babf-46ca5b3b6561%7D_banner-contacto.png") no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 40px;
+    padding: 30px;
+}
+.borde-caja {
+    border-left: 2px solid;
+}
+
+.bg-modal {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bc381faea-779f-446b-bd5f-6a04b75edbc0%7D_bg-modal.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-modal img {
+    margin-top: -73px;
+}
+.bg-modal-serprof {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B13051dc6-f955-4295-befb-ce06f624a50e%7D_bg-modal-serprof.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-modal-serprof img {
+    margin-top: -77px;
+}
+.bg-sec-iconos-video {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B6a1a677b-b891-4b24-a4f8-b9706b88ce1e%7D_bg-sec-iconos-video.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-sec-iconos-video img {
+    margin-top: -103px;
+}
+.bg-modal-serprof-tira2 {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B54763349-5628-45bb-a5cc-80ad6636bfa7%7D_bg-modal-serprof-tira2.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-modal-serprof-tira2 img {
+    margin-top: -79px;
+}
+.espaciado {
+    height: 100px;
+}
+.bg-modal-solutioncenter {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B47e52fc8-f5fb-444d-a752-89f122a3e430%7D_bg-modal-solutioncenter.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-modal-solutioncenter img {
+    margin-top: -67px;
+}
+.bg-modal-solutioncenter-tira2 {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B47e52fc8-f5fb-444d-a752-89f122a3e430%7D_bg-modal-solutioncenter.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-modal-solutioncenter-tira2 img {
+    margin-top: -66px;
+}
+
+.bg-modal-serviciosadministrados {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B47e52fc8-f5fb-444d-a752-89f122a3e430%7D_bg-modal-solutioncenter.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-modal-serviciosadministrados img {
+    margin-top: -63px;
+}
+.bg-modal-training {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B47e52fc8-f5fb-444d-a752-89f122a3e430%7D_bg-modal-solutioncenter.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-modal-training img {
+    margin-top: -102px;
+}
+.bg-modal-preventa {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B47e52fc8-f5fb-444d-a752-89f122a3e430%7D_bg-modal-solutioncenter.png") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-modal-preventa img {
+    margin-top: -92px;
+}
+
+.sf-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B59b3a50b-923a-47ca-9be4-02cbeb0b4654%7D_banner_top.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-sf {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B70db6385-0c0a-45a1-b484-049186a90237%7D_banner-sec-2.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.bg-tabla-sf {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B9b858ec2-3cf5-4486-9fd7-1213dc712d32%7D_bg-tabla.jpg") no-repeat;
+    background-size: cover;
+    box-shadow:  0 -10px 20px 1px rgba(0, 0, 0, 0.2) ;
+}
+.bg-tabla-sf img {
+    margin-top: -76px;
+}
+.table  td {
+    text-align: center;
+}
+.seccion-tabla-sf {
+    padding-bottom: 40px;
+}
+.seccion-4-sf {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bb39a8821-ac7f-4e08-ad50-2378ea7aca21%7D_banner-sec-4.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+    margin: 30px 0;
+}
+
+.serprof-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B99bd6159-27b8-49b3-a9d8-214ecbdaaf30%7D_banner_top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+
+.bg-sec2-serprof {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B9c00a0cc-8665-4c83-80e2-4946b09a9803%7D_banner-sec-2.png") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.seccion-grafico-serprof {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B942fb62d-9f5e-478c-bc32-07e1bc4d1be4%7D_fondo-grafico.png") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 40px;
+}
+.nube-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B5870dfe4-c03e-4462-90fc-33e1d413dd3d%7D_bg-topnube.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-nube {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B32a9b17e-6563-48c1-9020-87f6c9e217c1%7D_nube-slider.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.ciber-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B390028e7-73de-4897-b73e-a0902f9ad947%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.datacenter-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bd5c48e69-15e4-4dec-b08d-3933d749ce05%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-datacenter {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B8d0a8e17-4df7-4a74-bfbb-9cf4fcdda153%7D_banner-sec.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.datacapture-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B074ce48b-fd2a-4102-a80a-cb6f957ff7dd%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-datacapture {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bee3d796d-8dac-4c86-832c-c1481f59a81c%7D_banner-sec.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+
+.solutioncenter-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B7e6675f5-4554-463d-acab-ebea89b2d6cb%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-solutioncenter {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bf5b3cb10-888a-4f84-8d93-88d30864ed8c%7D_banner-sec.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.videocolaboracion-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B3b269740-5586-43fc-932c-241cd51fb688%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-videocolaboracion {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B449ee864-fadd-41a8-8ae9-0ca3bbdaa542%7D_banner-sec.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.serviciosadministrados-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Ba3d04936-078a-43df-b33f-0fd6a67a5f7c%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: 700px;
+    margin-top: 40px;
+}
+.bg-sec2-serviciosadministrados {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B5a94c490-9420-4555-b80d-a73a2821e4dc%7D_banner-sec.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.training-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B38c696f7-fd61-415b-96c4-c1c86c43c4b4%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-training {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B0a8ee611-c6d1-4693-a265-a3585bed7126%7D_banner-sec.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.preventa-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B9925add3-d708-423c-9d57-f52fe1e9c8a3%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.wfa-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bdd18555b-3685-4fcd-a472-9c6c0b73f4db%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-wfa {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B067ea248-9c10-4157-ae7f-ba37769aeff8%7D_banner-sec.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.digitalsignage-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B225098c9-2231-427e-b8c4-bf30f479569c%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.networking-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B0568f628-24e2-4d72-abc7-436a0070f9b6%7D_banner-top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-networking {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B7a3ccbf3-f7d2-402a-b4a0-e4d67968e693%7D_banner-sec.png") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.grafico-ciber {
+    padding: 40px 0;
+}
+.bg-sec2-ciber {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B4dd748de-b8db-4dd7-9f74-e634960553d2%7D_sec-2-banner.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+.nube-demoazure-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B86a077df-e645-46a7-965e-3ec545563031%7D_bg-topnube-demoazure.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.caja-video {
+    height: 400px;
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B0ccbf824-78fa-4e33-9264-668dfe8dea82%7D_demo-bg.png") no-repeat;
+    background-size: contain;
+    padding-top: 160px;
+    margin-top: 20px;
+}
+.seccion-soluciones-nube {
+    padding-bottom: 40px;
+}
+.card {
+    color: #413a3e;
+    /*font-weight: bold;*/
+    height: auto;
+    min-height: 300px;
+}
+.card-nube {
+    min-height: 370px;
+    font-weight: bold;
+}
+.card-video {
+    color: #413a3e;
+    font-weight: normal;
+    height: auto;
+    min-height: 600px;
+}
+.fondo-gradient {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 60%, rgba(223,235,239,1) 100%);
+}
+.video-banner {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B198a5f5b-93f9-41c7-85d2-166a4126ed7b%7D_banner_top.jpg") no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+    height: auto;
+    margin-top: 40px;
+}
+.bg-sec2-video {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7Bc2cc97e8-73d6-49fe-9e98-429937fd551e%7D_banner-sec-2.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 40px;
+}
+/*.numberCircle {
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    border: 2px solid ;
+}*/
+.numberCircle {
+    display:inline-block;
+    line-height:0px;
+    
+    border-radius:50%;
+    border:2px solid;
+    
+    font-size:32px;
+}
+
+.numberCircle span {
+    display:inline-block;
+    
+    padding-top:50%;
+    padding-bottom:50%;
+    
+    margin-left:10px;
+    margin-right:10px;
+}
+#seccion-cajas {
+    padding-top: 100px;
+}
+.caja-expandible {
+    padding-bottom: 40px;
+}
+.grantitular {
+    margin-top: -76px;
+}
+.eventos {
+    background: url("https://images.LatAm.ingrammicro.com/EloquaImages/clients/IngramMicroLATAM/%7B8ef0962f-e567-480b-9d0d-25bc3bcf6dce%7D_bg-eventos.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+/*Boton comentario*/
+.flotante{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: #2276ba;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.mi-flotante{
+	margin-top:16px;
+}
+/* Boton comentario */
+
+@media screen and (max-width: 575.98px) {
+    .seccion-primera {
+        margin-top: 20px;
+    }
+    .banner-abajo {
+        background: none;
+    }
+    .seccion-contacto-iot {
+        background: none;
+    }
+    .seccion-4-sf {
+        background: none;
+    }
+    .bg-sec2-serprof, .bg-sec2-nube, .bg-sec2-video, .bg-sec2-ciber, .bg-sec2-datacenter, .bg-sec2-datacapture, .bg-sec2-solutioncenter, .bg-sec2-videocolaboracion, .bg-sec2-serviciosadministrados, .bg-sec2-training, .bg-sec2-wfa, .bg-sec2-networking {
+        background: none;
+    }
+    #footer {
+        text-align: center;
+    }
+    .footer-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .boton-naranja-2 {
+        margin-left: 0px;
+    }
+    .borde-caja {
+        border-left: 0;
+    }
+    .bg-modal img, .bg-modal-serprof img, .bg-modal-serprof-tira2 img, .bg-sec-iconos-video img, .bg-modal-solutioncenter img, .bg-modal-solutioncenter-tira2 img, .bg-modal-serviciosadministrados img, .bg-modal-training img, .bg-modal-preventa img {
+        margin-top: 0px;
+    }
+    .bg-tabla-sf img {
+        margin-top: 0px;
+    }
+    .iconos {
+        display: none;
+    }
+    .grantitular {
+        margin-top: -120px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link:not(:last-child) {
+    border-right: 2px solid #3399dd;
+  }
+}
