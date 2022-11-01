@@ -1,0 +1,81 @@
+.servicios_banner_sec {
+  background-image: url("../../public//images/servicios-administrados/banner-sec_v2.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.text_bannersec {
+  z-index: 99;
+  position: relative;
+}
+
+.banner_doble {
+  background-image: url("../../public//images/servicios-administrados/banner-title.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_azul {
+  background-image: url("../../public//images/servicios-administrados/bannerbottom.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_footer {
+  background-image: url("../../public//images/servicios-administrados/bannerfooter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bubbles_position {
+  position: absolute;
+  top: 10;
+}
+
+.button_catalog:hover a {
+  color: #2276ba !important;
+}
+
+.bubbles_SerAdm_2,
+.bubbles_SerAdm {
+  background: url("../../public/images/servicios-administrados/bubbbles_background.png")
+    no-repeat;
+  background-size: auto;
+  background-size: cover;
+  box-shadow: 0 -10px 20px 1px rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+.bubbles_SerAdm_2{
+  margin-top: 8rem;
+}
+@media screen and (max-width: 768px) {
+  .button_contact {
+    margin-bottom: 20px;
+  }
+  .bubbles_SerAdm_2{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .servicios_banner_sec::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .servicios_banner_sec {
+    padding: 1rem;
+  }
+}
